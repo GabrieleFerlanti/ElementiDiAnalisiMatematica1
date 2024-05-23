@@ -126,6 +126,10 @@ $f$ nell'intervallo $(a, b)$ è monotona se verifica una delle seguenti condizio
 - strettamente crescente se $x<y$ $\Rightarrow f(x) < f(y)$
 - decrescente se $x<y$ $\Rightarrow f(x) \ge f(y)$
 - strettamente decrescente se $x<y$ $\Rightarrow f(x) > f(y)$
+- crescente se $x<y \Rightarrow f(x) \le f(y)$
+- strettamente crescente se $x<y \Rightarrow f(x) < f(y)$
+- decrescente se $x<y \Rightarrow f(x) \ge f(y)$
+- strettamente decrescente se $x<y \Rightarrow f(x) > f(y)$
 
 *nota* - le funzioni strettamente monotone sono iniettive.
 
