@@ -121,10 +121,11 @@ $f$ può essere limitata, limitata inferiormente o limitata superiormente se lo 
 #### Funzioni monotone 
 
 $f$ nell'intervallo $(a, b)$ è monotona se verifica una delle seguenti condizioni:
-- crescente se $x<y \Rightarrow f(x) \le f(y)$
-- strettamente crescente se $x<y \Rightarrow f(x) < f(y)$
-- decrescente se $x<y \Rightarrow f(x) \ge f(y)$
-- strettamente decrescente se $x<y \Rightarrow f(x) > f(y)$
+
+- crescente se $x<y$ $\Rightarrow f(x) \le f(y)$
+- strettamente crescente se $x<y$ $\Rightarrow f(x) < f(y)$
+- decrescente se $x<y$ $\Rightarrow f(x) \ge f(y)$
+- strettamente decrescente se $x<y$ $\Rightarrow f(x) > f(y)$
 
 *nota* - le funzioni strettamente monotone sono iniettive.
 
