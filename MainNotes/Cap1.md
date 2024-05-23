@@ -60,7 +60,6 @@ Se $x \in R$, si chiama valore assoluto di $x$ il numero reale $|x|$ definito po
 $z=a+ib$ *forma algebrica*
 $z=|z|(cos \alpha + i sin(\alpha))$ *forma trigonometrica*
 
-
 **modulo di z**: $|z|=$$\sqrt{(x^2+y^2)}$ 
 **coniugato di z**: $\overline z = a -ib$
 
@@ -113,6 +112,7 @@ $f$ può essere limitata, limitata inferiormente o limitata superiormente se lo 
 *nota* -  se $f$ ha il massimo, esso viene chiamato massimo assoluto di $f$ in $X$.
 
 **estremi relativi**
+
 - un punto $c \in (a, b)$ è detto punto di minimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \ge f(c)$ $\forall x \in I$.
 - un punto $c \in (a, b)$ è detto punto di massimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \le f(c)$ $\forall x \in I$.
 
@@ -122,14 +122,14 @@ $f$ può essere limitata, limitata inferiormente o limitata superiormente se lo 
 
 $f$ nell'intervallo $(a, b)$ è monotona se verifica una delle seguenti condizioni:
 
-- crescente se $x<y$ $\Rightarrow f(x) \le f(y)$
-- strettamente crescente se $x<y$ $\Rightarrow f(x) < f(y)$
-- decrescente se $x<y$ $\Rightarrow f(x) \ge f(y)$
-- strettamente decrescente se $x<y$ $\Rightarrow f(x) > f(y)$
-- crescente se $x<y \Rightarrow f(x) \le f(y)$
-- strettamente crescente se $x<y \Rightarrow f(x) < f(y)$
-- decrescente se $x<y \Rightarrow f(x) \ge f(y)$
-- strettamente decrescente se $x<y \Rightarrow f(x) > f(y)$
+- crescente se $x\lt y$ $\Rightarrow f(x) \le f(y)$
+- strettamente crescente se $x\lt y$ $\Rightarrow f(x) < f(y)$
+- decrescente se $\lt<y$ $\Rightarrow f(x) \ge f(y)$
+- strettamente decrescente se $x\lt y$ $\Rightarrow f(x) > f(y)$
+- crescente se $x\lt y \Rightarrow f(x) \le f(y)$
+- strettamente crescente se $x\lt y \Rightarrow f(x) < f(y)$
+- decrescente se $x\lt y \Rightarrow f(x) \ge f(y)$
+- strettamente decrescente se $x\lt y \Rightarrow f(x) > f(y)$
 
 *nota* - le funzioni strettamente monotone sono iniettive.
 
