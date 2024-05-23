@@ -124,7 +124,7 @@ $f$ nell'intervallo $(a, b)$ è monotona se verifica una delle seguenti condizio
 
 - crescente se $x\lt y$ $\Rightarrow f(x) \le f(y)$
 - strettamente crescente se $x\lt y$ $\Rightarrow f(x) < f(y)$
-- decrescente se $\lt<y$ $\Rightarrow f(x) \ge f(y)$
+- decrescente se $\lt y$ $\Rightarrow f(x) \ge f(y)$
 - strettamente decrescente se $x\lt y$ $\Rightarrow f(x) > f(y)$
 - crescente se $x\lt y \Rightarrow f(x) \le f(y)$
 - strettamente crescente se $x\lt y \Rightarrow f(x) < f(y)$
