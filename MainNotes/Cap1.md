@@ -6,13 +6,13 @@ $N$ insieme dei numeri naturali 1, 2, 3, 4, 5, ... <br> $Z$ insieme dei numeri i
 
 ### Densità di Q e di R
 
-**Teorema** Siano a, b due numeri reali, con a < b. Allora, esistono infiniti numeri razionali $r$  e infiniti numeri irrazionali $s$ tali che a < $r$ < b, a < $s$ < b. 
+**Teorema** Siano a, b due numeri reali, con a < b. Allora, esistono infiniti numeri razionali $r$  e infiniti numeri irrazionali $s$ tali che a < $r$ < b, a < $s$ < b.
 
 *intervallo di estremi* [a,b]
 
 #### Intervalli e interno
 
-**Intervalli limitati** 
+**Intervalli limitati**
 ]a,b[ intervallo aperto
 [a,b[
 [a,b] intervallo chiuso
@@ -53,18 +53,18 @@ Se $x \in R$, si chiama valore assoluto di $x$ il numero reale $|x|$ definito po
 
 *nota* -  un punto interno è un punto di accumulazione, un punto di frontiera può anche non esserlo. La chiusura di $X$ -> $\overline X  = X \cup D(X)$
 
-### Numeri complessi 
+### Numeri complessi
 
 $z=a+ib$ *forma algebrica*
 $z=|z|(cos \alpha + i sin(\alpha))$ *forma trigonometrica*
 
-**modulo di z**: $|z|=$$\sqrt{(x^2+y^2)}$ 
+**modulo di z**: $|z|=$$\sqrt{(x^2+y^2)}$
 **coniugato di z**: $\overline z = a -ib$
 
-#### Radici 
+#### Radici
 
 $w_k = \sqrt[n]{|z|}(cos(\frac{\alpha + 2k\pi}{n}) + isin(\frac{\alpha + 2k\pi}{n})$
-k va da 0 a n-1 
+k va da 0 a n-1
 
 ### Valori delle funzioni goniometriche
 
@@ -89,10 +89,10 @@ k va da 0 a n-1
 
 ### Funzioni
 
-**funzione pari**: Sia $f:]-\infty,+\infty[$. Si dice che f è una funzione pari se, $\forall x \in R$, si ha $f(-x) = f(x)$. 
+**funzione pari**: Sia $f:]-\infty,+\infty[$. Si dice che f è una funzione pari se, $\forall x \in R$, si ha $f(-x) = f(x)$.
 *nota* -  Il suo grafico `e un insieme simmetrico rispetto all’asse delle ordinate
 
-**funzione disapri**: Sia $f:]-\infty,+\infty[$. Si dice che f è una funzione dispari se, $\forall x \in R$, si ha $f(-x) = -f(x)$. 
+**funzione disapri**: Sia $f:]-\infty,+\infty[$. Si dice che f è una funzione dispari se, $\forall x \in R$, si ha $f(-x) = -f(x)$.
 *nota* -  Il suo grafico `e un insieme simmetrico rispetto all’origine.
 
 **funzione periodica**: $f$ si dice periodica se esiste un numero positivo $T$ (periodo) tale che, per ogni $x \in R$, si ha $f(x+T) = f(x)$.
@@ -110,13 +110,12 @@ $f$ può essere limitata, limitata inferiormente o limitata superiormente se lo 
 *nota* -  se $f$ ha il massimo, esso viene chiamato massimo assoluto di $f$ in $X$.
 
 **estremi relativi**
-
-- un punto $c \in (a, b)$ è detto punto di minimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \ge f(c)$ $\forall x \in I$.
-- un punto $c \in (a, b)$ è detto punto di massimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \le f(c)$ $\forall x \in I$.
+    - un punto $c \in (a, b)$ è detto punto di minimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \ge f(c)$ $\forall x \in I$.
+    - un punto $c \in (a, b)$ è detto punto di massimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \le f(c)$ $\forall x \in I$.
 
 *nota* - Un punto di estremo assoluto è anche di estremo relativo, ma non vale il viceversa.
 
-#### Funzioni monotone 
+#### Funzioni monotone
 
 $f$ nell'intervallo $(a, b)$ è monotona se verifica una delle seguenti condizioni:
 
@@ -144,7 +143,7 @@ $f$ nell'intervallo $(a, b)$ è monotona se verifica una delle seguenti condizio
 |funzione esponenziale $x^{n}$|$]-\infty , + \infty[$|
 |funzione esponenziale $x^{-n}$|$]-\infty , + \infty[$ \ $\{0\}$|
 |funzione esponenziale $x^{\frac{m}{n}}$ $\frac{m}{n}>0$|$[0, +\infty[$|
-|funzione esponenziale $x^{\frac{m}{n}} $| $\frac{m}{n}<0$|$]0, +\infty[$|
+|funzione esponenziale $x^{\frac{m}{n}} $ $\frac{m}{n}<0$|$]0,+\infty[$|
 |funzione esponenziale $x^s$ $s \in R$ \ $Q$ $s\ge0$|$[0, +\infty[$|
 |funzione esponenziale $x^s$ $s \in R$ \ $Q$ $s < 0$|$]0, +\infty[$|
 |funzione esponenziale $a^x$ $a > 0, a \ne 1$|$]-\infty, + \infty[$|
