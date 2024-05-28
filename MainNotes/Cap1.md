@@ -93,7 +93,7 @@ k va da 0 a n-1
 *nota* -  Il suo grafico `e un insieme simmetrico rispetto all’asse delle ordinate
 
 **funzione disapri**: Sia $f:]-\infty,+\infty[$. Si dice che f è una funzione dispari se, $\forall x \in R$, si ha $f(-x) = -f(x)$. 
-*nota* -  Il suo grafico `e un insieme simmetrico rispetto all’origine
+*nota* -  Il suo grafico `e un insieme simmetrico rispetto all’origine.
 
 **funzione periodica**: $f$ si dice periodica se esiste un numero positivo $T$ (periodo) tale che, per ogni $x \in R$, si ha $f(x+T) = f(x)$.
 
@@ -114,7 +114,7 @@ $f$ può essere limitata, limitata inferiormente o limitata superiormente se lo 
 - un punto $c \in (a, b)$ è detto punto di minimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \ge f(c)$ $\forall x \in I$.
 - un punto $c \in (a, b)$ è detto punto di massimo relativo per $f$ se esiste un suo intorno $I=]c-r,c+r[$ tale che $f(X) \le f(c)$ $\forall x \in I$.
 
-*nota* - Un punto di estremo assoluto è anche di estremo relativo, ma non vale il viceversa.ù
+*nota* - Un punto di estremo assoluto è anche di estremo relativo, ma non vale il viceversa.
 
 #### Funzioni monotone 
 
