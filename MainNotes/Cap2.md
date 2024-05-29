@@ -11,7 +11,7 @@ Una successione di numeri reali è una funzione reale  definita in $N$, $f:N \ri
 
 #### Successioni regolari 
 
-**limite di una successione** Sia $l$ un numero reale. Si dice che la successione $\{a_n\}$ converge o tende ad $l$ o che $l$ è il limite della successione, e si scrive $a_n \rightarrow l$ o $ \lim{a_n} = l $ se è verificata la seguente condizione: $\forall \epsilon > 0$ $\exist \alpha \in N:n > a \Rightarrow |a_n-l| < \epsilon$.
+**limite di una successione** Sia $l$ un numero reale. Si dice che la successione $\{a_n\}$ converge o tende ad $l$ o che $l$ è il limite della successione, e si scrive $a_n \rightarrow l$ o $ \lim{a_n} = l $ se è verificata la seguente condizione: $\forall \epsilon > 0$ $\exist$ $\alpha \in N:n > a \Rightarrow |a_n-l| < \epsilon$.
 
 *nota* - Se $l = 0$ la successione è detta infinitesima.
 
@@ -24,7 +24,7 @@ Una successione di numeri reali è una funzione reale  definita in $N$, $f:N \ri
 **Teorema di confronto per successioni convergenti** Se $a_n \le b_n \le c_n$, per ogni $n \in N$ e $a_n \rightarrow l, c_n\rightarrow l$, allora $b_n \rightarrow l$.
 **Dimostrazione** Dato che $D$ si ha sia $l - \epsilon < a_n < l+\epsilon$ che $l-\epsilon < c_n < l + \epsilon$, D si avrà $l-\epsilon < a_n \le n_n \le c_n < l+ \epsilon$.
 
-**La successione diverge** Si dice che la successione $\{a_n\}$ diverge o tende a $+\infty$ (risp. $-\infty$), e si scrive $a_n \rightarrow +\infty$ o $\lim{a_n} = +\infty$ (risp. $-\infty$) se è verificata la seguente condizione: $\forall k > 0$ $\exist \alpha \in N: n > \alpha \Rightarrow a_n > k$ ($a_n < -k$).
+**La successione diverge** Si dice che la successione $\{a_n\}$ diverge o tende a $+\infty$ (risp. $-\infty$), e si scrive $a_n \rightarrow +\infty$ o $\lim{a_n} = +\infty$ (risp. $-\infty$) se è verificata la seguente condizione: $\forall k > 0$ $\exist$ $\alpha \in N: n > \alpha \Rightarrow a_n > k$ ($a_n < -k$).
 
 **Teorema di confronto per successioni divergenti** Se $a_n \le b_n$ per ogni $n \in N$ e $a_n \rightarrow +\infty$,allora $b_n \rightarrow +\infty$; se $b_n \rightarrow -\infty$, allora $a_n \rightarrow -\infty$
 **Dimostrazione** Se $a_n \rightarrow +\infty$, allora $D$ si ha $a_n >k $, ne segue cge $b_n \ge a_n > k$; l'altro caso si prova allo stesso modo.
