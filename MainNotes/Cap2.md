@@ -11,7 +11,7 @@ Una successione di numeri reali è una funzione reale  definita in $N$, $f:N \ri
 
 #### Successioni regolari 
 
-**limite di una successione** Sia $l$ un numero reale. Si dice che la successione $\{a_n\}$ converge o tende ad $l$ o che $l$ è il limite della successione, e si scrive $a_n \rightarrow l$ o $ \lim{a_n} = l $ se è verificata la seguente condizione: $\forall \epsilon > 0$ $\exist\alpha \in N:n > a \Rightarrow |a_n-l| < \epsilon$.
+**limite di una successione** Sia $l$ un numero reale. Si dice che la successione $\{a_n\}$ converge o tende ad $l$ o che $l$ è il limite della successione, e si scrive $a_n \rightarrow l$ o $ \lim{a_n} = l $ se è verificata la seguente condizione: $\forall \epsilon > 0$ $\exist \alpha \in N:n > a \Rightarrow |a_n-l| < \epsilon$.
 
 *nota* - Se $l = 0$ la successione è detta infinitesima.
 
@@ -19,12 +19,12 @@ Una successione di numeri reali è una funzione reale  definita in $N$, $f:N \ri
 **Dimostrazione** Supponiamo per assurdo che $a_n \rightarrow l e a_n \rightarrow L, con, ad esempio l < L$. Scelto $\epsilon$ tale che $0 < \epsilon \frac{L-l}{2}$, $D$ si ha $a_n < l + \epsilon < L- \epsilon < a_n$, assurdo.
 
 **Teorema della permanenza del segno** Se $a_n \rightarrow l$ (risp. $l < 0$), allora $D$ si ha $a_n > 0$ (risp. $a_n < 0$).
-**Dimostrazione** Supponiamo $l > 0$. Scelto $\epsilon$ tale che $0 < \epsilon < l$, $D$ si ha $a_n > l - \epsilon > 0$. Il caso $l<0$ si prova in modo simile. Generalizzando questo risultato, possiamo, affermare che se $a_n \rightarrow l$ e $h <l$ (risp. $k >l$), $D$ si ha $a_n > h$ (risp. $a_n < k$).
+**Dimostrazione** Supponiamo $l > 0$. Scelto $\epsilon$ tale che $0 < \epsilon < l$, $D$ si ha $a_n > l - \epsilon > 0$. Il caso $l<0$ si prova in modo simile. Generalizzando questo risultato, possiamo, affermare che se $a_n \rightarrow l$ e $h$ < $l$ (risp. $k >l$), $D$ si ha $a_n > h$ (risp. $a_n < k$).
 
 **Teorema di confronto per successioni convergenti** Se $a_n \le b_n \le c_n$, per ogni $n \in N$ e $a_n \rightarrow l, c_n\rightarrow l$, allora $b_n \rightarrow l$.
 **Dimostrazione** Dato che $D$ si ha sia $l - \epsilon < a_n < l+\epsilon$ che $l-\epsilon < c_n < l + \epsilon$, D si avrà $l-\epsilon < a_n \le n_n \le c_n < l+ \epsilon$.
 
-**La successione diverge** Si dice che la successione $\{a_n\}$ diverge o tende a $+\infty$ (risp. $-\infty$), e si scrive $a_n \rightarrow +\infty$ o $\lim{a_n} = +\infty$ (risp. $-\infty$) se è verificata la seguente condizione: $\forall k > 0$ $\exist\alpha \in N: n > \alpha \Rightarrow a_n > k$ ($a_n < -k$).
+**La successione diverge** Si dice che la successione $\{a_n\}$ diverge o tende a $+\infty$ (risp. $-\infty$), e si scrive $a_n \rightarrow +\infty$ o $\lim{a_n} = +\infty$ (risp. $-\infty$) se è verificata la seguente condizione: $\forall k > 0$ $\exist \alpha \in N: n > \alpha \Rightarrow a_n > k$ ($a_n < -k$).
 
 **Teorema di confronto per successioni divergenti** Se $a_n \le b_n$ per ogni $n \in N$ e $a_n \rightarrow +\infty$,allora $b_n \rightarrow +\infty$; se $b_n \rightarrow -\infty$, allora $a_n \rightarrow -\infty$
 **Dimostrazione** Se $a_n \rightarrow +\infty$, allora $D$ si ha $a_n >k $, ne segue cge $b_n \ge a_n > k$; l'altro caso si prova allo stesso modo.
